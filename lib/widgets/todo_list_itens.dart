@@ -20,7 +20,7 @@ class TodoListItem extends StatelessWidget {
         // Widget que permite deslizar para mostrar o botão de deletar
         key: ValueKey(todo.title),
         endActionPane: ActionPane(
-          extentRatio: 0.10,
+          extentRatio: 0.28,
           motion: const DrawerMotion(),
           children: [
             // Botão de deletar que aparece ao deslizar
